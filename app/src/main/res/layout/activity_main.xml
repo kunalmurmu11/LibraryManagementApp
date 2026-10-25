@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F5F7FA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Library"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#203864"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/searchBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search books..."
+        android:singleLine="true"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnViewBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Books" />
+
+    <Button
+        android:id="@+id/btnAddBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Book" />
+
+    <Button
+        android:id="@+id/btnIssueReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Issue / Return Book" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to your library!"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="20dp" />
+
+</LinearLayout>
